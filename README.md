@@ -4,4 +4,4 @@ This repository contains my notes on causal graphs. Specifically, defining causa
 ## Background
 These concepts originate from Judea Pearl's work on the [Theory of Causality](http://bayes.cs.ucla.edu/home.htm), which provides a concise set of mathematical operations for causal learning.
 
-See the [[References]] [References](https://github.com/cobleg/CausalGraphs/References.md) [References](references.md) page for useful background information about causal graphs.
+See the  [References](references.md) page for useful background information about causal graphs.
