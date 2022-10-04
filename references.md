@@ -12,4 +12,5 @@ Rohrer JM. [Thinking Clearly About Correlations and Causation: Graphical Causal 
 
 Rohrer, J. M., & Murayama, K. (2021, October 11). [These are not the effects you are looking for: Causality and the within-/between-person distinction in longitudinal data analysis.](https://psyarxiv.com/tg4vj/) https://doi.org/10.31234/osf.io/tg4vj
 
-Wikipedia contributors. [](https://en.wikipedia.org/w/index.php?title=Causal_graph&oldid=1109084450)
+Wikipedia contributors (4 October 2022 01:21 UTC). [Causal graph](https://en.wikipedia.org/w/index.php?title=Causal_graph&oldid=1109084450)
+
