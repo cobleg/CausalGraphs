@@ -7,7 +7,7 @@ graph LR;
 	X-->Y;
 ```
 
-## Mediator variable
+## `a` is a mediator between `X` and `Y`
 
 ```mermaid
 graph LR;
@@ -21,3 +21,6 @@ graph TD;
 	a --> x;
 	b --> x;
 ```
+
+Colliders block transmission of cause-effect. 
+
