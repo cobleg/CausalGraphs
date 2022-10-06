@@ -14,7 +14,10 @@ graph LR;
 
 x --> a;
 a --> Y;
+
 ```
+
+
 ## Collider variable
 ```mermaid
 graph TD;
