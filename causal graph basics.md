@@ -14,7 +14,7 @@ By constrast, a blocked path is
 ```mermaid
 graph TD;
 	X-->Z;
-	Z<--Y; 
+	Y-->Z; 
 ```
 
 ## `a` is a mediator between `X` and `Y`
