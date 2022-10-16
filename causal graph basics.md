@@ -47,6 +47,6 @@ stateDiagram-v2
     Z --> Y  
   
 ```
-In this example, $Z$ is a confounder, creating a spurious association between  $X$ and  $Y$. 
+In this example, $Z$ is a confounder, creating a spurious association between  $X$ and  $Y$. This example is referred to as a `fork`. 
 
 # Conditioning

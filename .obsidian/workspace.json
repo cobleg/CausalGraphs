@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8f07b78f019e364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Causal graph basics.md",
+                "file": "Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Causal graph basics.md",
+                "file": "Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Causal graph basics.md"
+                "file": "Glossary.md"
               }
             }
           }
@@ -152,11 +164,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2d0e1633195b8c01",
+  "active": "c8f07b78f019e364",
   "lastOpenFiles": [
-    "Propensity score matching.md",
-    "Causal graph basics.md",
     "references.md",
+    "Glossary.md",
+    "Causal graph basics.md",
+    "Propensity score matching.md",
     "README.md",
     "[[references]].md"
   ]
