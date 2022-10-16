@@ -9,13 +9,12 @@ graph LR;
 ```
 This is referred to as an open path
 
-By constrast, a block path is
+By constrast, a blocked path is
 
 ```mermaid
-
-graph LR;
-X->Z<-Y;
-
+graph TD;
+	X-->Z;
+	Z<--Y; 
 ```
 
 ## `a` is a mediator between `X` and `Y`
@@ -32,8 +31,8 @@ a --> Y;
 ## Collider variable
 ```mermaid
 graph TD;
-	a --> x;
-	b --> x;
+	a --> X;
+	b --> X;
 ```
 
 Colliders block transmission of cause-effect. 
