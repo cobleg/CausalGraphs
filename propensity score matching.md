@@ -16,6 +16,11 @@ There four main steps:
 
 ## Estimate propensity scores
 This step consists of:
-- Defining the binary dependent variable $Z=1$ if the participant is a member of the treated (aka exposed) group and $Z=0$ if the participant is a member of the untreated (aka unexposed) group.
+- Defining the binary dependent variable $YZ=1$ if the participant is a member of the treated (aka exposed) group and $Z=0$ if the participant is a member of the untreated (aka unexposed) group.
 - Identify [confounders](https://en.wikipedia.org/wiki/Confounding)
 - 
+
+# Further information
+For further information, see:
+[Use of Causal Diagrams in Variable Selection for Causal Observational Studies](https://youtu.be/Iu8VHVDMVe8?t=324)
+
