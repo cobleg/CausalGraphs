@@ -7,17 +7,17 @@ This note provides an outline of causal graph basics.
 graph LR;
 	X-->Y;
 ```
-This is referred to as an open path
+This is referred to as an open path between cause and effect
 
-By constrast, a blocked path is
+## Blocked path
 
 ```mermaid
 graph LR;
 	X-->Z;
-	Y-->Z; 
+	Y<-->Z; 
 ```
 
-## `a` is a mediator between `X` and `Y`
+## Mediator 
 
 ```mermaid
 graph LR;
@@ -26,24 +26,21 @@ x --> a;
 a --> Y;
 
 ```
-
+`a` is a mediator between `X` and `Y`
 
 ## Collider variable
 ```mermaid
 graph TD;
-	a --> X;
-	b --> X;
+	a --> Z;
+	b --> Z;
 ```
-
-Colliders block transmission of cause-effect. 
+In this example, $Z$ is a collider
+## Confounders
 
 ```mermaid
 stateDiagram-v2  
-    [*] --> X  
-    Y --> [*]  
+    Z --> X  
+    Z --> Y  
   
-    Still --> Moving  
-    Moving --> Still  
-    Moving --> Crash  
-    Crash --> [*]
 ```
+In this example, $Z$ is a confounder, creating a spurious association between  $X$ and  $Y$. 
