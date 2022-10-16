@@ -6,6 +6,7 @@ According to Wikipedia:
 
 Wikipedia contributors. (2022, July 12). Propensity score matching. In _Wikipedia, The Free Encyclopedia_. Retrieved 00:41, October 16, 2022, from [https://en.wikipedia.org/w/index.php?title=Propensity_score_matching&oldid=1097717291](https://en.wikipedia.org/w/index.php?title=Propensity_score_matching&oldid=1097717291)
 
+Propensity score matching is applied to *discrete* causal inference problems.
 # Process
 There four main steps:
 1. Estimate propensity scores
@@ -14,4 +15,7 @@ There four main steps:
 4. Estimate the effect of treatment based on a new sample.
 
 ## Estimate propensity scores
-
+This step consists of:
+- Defining the binary dependent variable $Z=1$ if the participant is a member of the treated (aka exposed) group and $Z=0$ if the participant is a member of the untreated (aka unexposed) group.
+- Identify [confounders](https://en.wikipedia.org/wiki/Confounding)
+- 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "propensity score matching.md",
+                "file": "Propensity score matching.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,9 +23,11 @@
             "id": "2d0e1633195b8c01",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.0"
+                "file": "Propensity score matching.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "propensity score matching.md",
+                "file": "Propensity score matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "propensity score matching.md",
+                "file": "Propensity score matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "propensity score matching.md"
+                "file": "Propensity score matching.md"
               }
             }
           }
@@ -152,8 +154,9 @@
   },
   "active": "2d0e1633195b8c01",
   "lastOpenFiles": [
-    "references.md",
     "causal graph basics.md",
+    "Propensity score matching.md",
+    "references.md",
     "README.md",
     "[[references]].md"
   ]
