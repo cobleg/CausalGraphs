@@ -12,7 +12,7 @@ This is referred to as an open path
 By constrast, a blocked path is
 
 ```mermaid
-graph TD;
+graph LR;
 	X-->Z;
 	Y-->Z; 
 ```
@@ -37,3 +37,13 @@ graph TD;
 
 Colliders block transmission of cause-effect. 
 
+```mermaid
+stateDiagram-v2  
+    [*] --> X  
+    Y --> [*]  
+  
+    Still --> Moving  
+    Moving --> Still  
+    Moving --> Crash  
+    Crash --> [*]
+```
