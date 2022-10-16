@@ -1,13 +1,17 @@
 # Overview
-This note provides an outline of causal graph basics.
+This note provides an outline of causal graph basics. Rules of causal graphs:
+- Causal graphs are acyclic. Logically, a variable cannot cause itself
+- Open paths between variables can be blocked by conditioning on non-colliders
+- Blocked paths between variables can be unblocked by conditioning on colliders.
 
-## A change in variable `X` causes a change in variable `Y`
+
+## Open path
 
 ```mermaid
 graph LR;
 	X-->Y;
 ```
-This is referred to as an open path between cause and effect
+A change in variable $X$ causes a change in variable $Y$. This is referred to as an open path between cause and effect.
 
 ## Blocked path
 
@@ -26,7 +30,7 @@ x --> a;
 a --> Y;
 
 ```
-`a` is a mediator between `X` and `Y`
+In this example, $a$ is a mediator between cause $X$ and effect  $Y$
 
 ## Collider variable
 ```mermaid
@@ -44,3 +48,5 @@ stateDiagram-v2
   
 ```
 In this example, $Z$ is a confounder, creating a spurious association between  $X$ and  $Y$. 
+
+# Conditioning
