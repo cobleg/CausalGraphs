@@ -11,7 +11,7 @@ A variable $Y$ is a child of variable $X$ if there is a unidirectional path from
 ## Confounder
 
 ## Conditioning
-Conditioning refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
+[[Conditioning]] refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
 
 ## Counterfactual
 
@@ -26,6 +26,9 @@ Johannes Textor, Benito van der Zander, Mark K. Gilthorpe, Maciej Liskiewicz, Ge
 _International Journal of Epidemiology_ 45(6):1887-1894, 2016.
 
 ## Do calculus
+
+## Identification
+
 
 ## Mediation
 
