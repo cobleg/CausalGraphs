@@ -1,4 +1,4 @@
-A time dependent [confounder](Glossary#Confounder) is a confounding variable in which the value of the variable changes over time. Traditional methods of adjustment can cause bias in statistical studies. This is a particular problem where a threshold (e.g. level of dosing in a medical treatment) is involved. 
+A time dependent [confounder](Glossary.md##Confounder) is a confounding variable in which the value of the variable changes over time. Traditional methods of adjustment can cause bias in statistical studies. This is a particular problem where a threshold (e.g. level of dosing in a medical treatment) is involved. 
 
 Feedback between outcome and confounder further complicates the bias.
 
