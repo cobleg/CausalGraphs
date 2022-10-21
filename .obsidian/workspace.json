@@ -166,9 +166,9 @@
   },
   "active": "c8f07b78f019e364",
   "lastOpenFiles": [
-    "Conditioning.md",
-    "Glossary.md",
     "Causal graph basics.md",
+    "Glossary.md",
+    "Conditioning.md",
     "references.md",
     "Propensity score matching.md",
     "README.md",
