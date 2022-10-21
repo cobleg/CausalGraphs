@@ -9,14 +9,15 @@ A variable $Y$ is a child of variable $X$ if there is a unidirectional path from
 ## Collider
 
 ## Confounder
-A variable that is a comm
+A variable ($Z$) that is a common cause of an exposure ($a$) and an outcome ($Y$). This is described as a bias that can result in spurious correlation between.
+
 ## Conditioning
 [[Conditioning]] refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
 
 ## Counterfactual
 
 ## Covariate
-
+A covariate is a variable included in a study of cause and effect that is not the exposure variable ($X$) nor the outcome variable ($Y$). A covariate is typically indicated by use of a lower case alphabetical symbol, e.g. $a$. 
 
 ## d-separation
 > d-separation is a criterion for deciding, from a given a causal graph, whether a set $X$ of variables is independent of another set $Y$ given a third set $Z$. The idea is to associate "dependence" with "connectedness" (i.e., the existence of a connecting path) and "independence" with "unconnected-ness" or "separation". The only twist on this simple idea is to define what we mean by "connecting path", given that we are dealing with a system of directed arrows in which some vertices (those residing in $Z$) correspond to measured variables, whose values are known precisely. To account for the orientations of the arrows we use the terms "d-separated" and "_d-connected" (d connotes "directional").
@@ -26,6 +27,9 @@ Johannes Textor, Benito van der Zander, Mark K. Gilthorpe, Maciej Liskiewicz, Ge
 _International Journal of Epidemiology_ 45(6):1887-1894, 2016.
 
 ## Do calculus
+
+## Exposure
+An exposure is a variable that an independent variable that is the subject of interest ion intervention or action that is introduced, typically intentionally but can be accidental that perturbs a system of interconnected variables.
 
 ## Identification
 
