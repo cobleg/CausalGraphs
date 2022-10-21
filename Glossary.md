@@ -29,7 +29,7 @@ Z --> Y;
 ```
 
 ## Conditioning
-[[Conditioning]] refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
+[Conditioning](Conditioning.md) refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
 
 ## Counterfactual
 
@@ -55,10 +55,9 @@ An exposure is a variable that is an independent variable that is the subject of
 A mediator ($M$) is a variable that is located on the causal pathway between the exposure variable ($X$) and the outcome variable ($Y$). 
 
 
-
 ```mermaid
 graph LR;
-x --> M --> Y;
+X --> M --> Y;
 ```
 ## Outcome
 The outcome is a variable that is the dependent variable in a causal study. The outcome variable is denoted by $Y$. 

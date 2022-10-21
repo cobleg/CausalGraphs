@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inverse_probability_weighting.md",
+                "file": "Glossary.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inverse_probability_weighting.md",
+                "file": "Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inverse_probability_weighting.md",
+                "file": "Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inverse_probability_weighting.md"
+                "file": "Glossary.md"
               }
             }
           }
@@ -178,8 +178,8 @@
   },
   "active": "7cda3fa33b1d07ff",
   "lastOpenFiles": [
-    "Time dependent confounders.md",
     "inverse_probability_weighting.md",
+    "Time dependent confounders.md",
     "Glossary.md",
     "Conditioning.md",
     "inverse.md",
