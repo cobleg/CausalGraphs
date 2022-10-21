@@ -1,1 +1,1 @@
-A time dependent [confounder](confounder.md) 
+A time dependent [confounder](Glossary#Confounder) 
