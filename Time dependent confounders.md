@@ -3,7 +3,7 @@ A time dependent [confounder](Glossary#Confounder) is a confounding variable in 
 Feedback between outcome and confounder further complicates the bias.
 
 # Examples
-In a study on the effect of physical activity on knee pain, previous knee pain can act as a confounder
+In a study on the effect of physical activity on knee pain, previous knee pain can act as a confounder for the effect of current physical activity on knee pain.
 
 # Methods of adjustment
 

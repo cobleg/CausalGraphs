@@ -1,0 +1,1 @@
+Inverse probability weighting is a method to reduce bias in causal
