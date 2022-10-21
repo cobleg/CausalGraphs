@@ -1,5 +1,8 @@
-## Causal assessment
-
+## Causal assessment rules
+Causal assessment rules are:
+- Keep the causal path open
+- Block or adjust all confounding paths
+- Do not condition on a mediator
 
 ## Causal model
 > A causal model is a diagram of the relationships between independent, control, and dependent variables.

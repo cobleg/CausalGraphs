@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7cda3fa33b1d07ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time dependent confounders.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary.md",
+                "file": "Time dependent confounders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary.md",
+                "file": "Time dependent confounders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary.md"
+                "file": "Time dependent confounders.md"
               }
             }
           }
@@ -164,10 +176,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c8f07b78f019e364",
+  "active": "7cda3fa33b1d07ff",
   "lastOpenFiles": [
-    "Causal graph basics.md",
     "Glossary.md",
+    "Causal graph basics.md",
     "Conditioning.md",
     "references.md",
     "Propensity score matching.md",
