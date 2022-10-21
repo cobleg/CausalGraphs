@@ -52,7 +52,7 @@ An exposure is a variable that is an independent variable that is the subject of
 
 
 ## Mediator
-A mediator ($M$) is a variable that is located on the causal pathway between the exposure variable ($X$) and the outcome variable ($Y$). 
+A mediator ($M$) is a variable that is located on the causal pathway between the exposure variable ($X$) and the outcome variable ($Y$).  
 
 
 ```mermaid
