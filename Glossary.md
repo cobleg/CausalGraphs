@@ -8,8 +8,13 @@ A variable $Y$ is a child of variable $X$ if there is a unidirectional path from
 
 ## Collider
 
+## Competing exposure
+A competing exposure is an ancestor of the outcome variable ($Y$). 
+
 ## Confounder
-A variable ($Z$) that is a common cause of an exposure ($a$) and an outcome ($Y$). This is described as a bias that can result in spurious correlation between.
+A variable ($Z$) that is a common cause of an exposure ($X$) and an outcome ($Y$). This is described as a bias that can result in spurious correlation between $X$ and $Y$. Note that the use of the letter $Z$ indicates the possibility that the variable can be a covariate or an unidentified or unmeasured source of variation within a casual study. 
+
+Note that a variable can be a proxy confounder, which means that they are not confounders, but are located on the causal pathway between a confounder and the exposure ($X$) or outcome ($Y$).  
 
 ## Conditioning
 [[Conditioning]] refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
@@ -29,12 +34,16 @@ _International Journal of Epidemiology_ 45(6):1887-1894, 2016.
 ## Do calculus
 
 ## Exposure
-An exposure is a variable that an independent variable that is the subject of interest ion intervention or action that is introduced, typically intentionally but can be accidental that perturbs a system of interconnected variables.
+An exposure is a variable that is an independent variable that is the subject of interest in a causal study. The exposure variable is denoted by $X$.
 
 ## Identification
 
 
-## Mediation
+## Mediator
+A mediator is a variable that is located on the causal pathway between the exposure variable ($X$) and the outcome variable ($Y$). 
+
+## Outcome
+The outcome is a variable that is the dependent variable in a causal study. The outcome variable is denoted by $Y$. 
 
 ## Parent
 A variable $X$ is a parent of variable $Y$ if there is a unidirectional path connecting $X$ to $Y$.
