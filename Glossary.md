@@ -9,7 +9,7 @@ A variable $Y$ is a child of variable $X$ if there is a unidirectional path from
 ## Collider
 
 ## Confounder
-
+A variable that is a comm
 ## Conditioning
 [[Conditioning]] refers to setting a parent variable to a specific value, which has the effect of changing the value of a child variable.
 
