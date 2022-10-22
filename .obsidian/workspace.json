@@ -47,12 +47,8 @@
             "id": "7cda3fa33b1d07ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "inverse_probability_weighting.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -122,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inverse_probability_weighting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inverse_probability_weighting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "inverse_probability_weighting.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -179,8 +171,8 @@
   "active": "7cda3fa33b1d07ff",
   "lastOpenFiles": [
     "inverse probability weighting.md",
-    "Glossary.md",
     "inverse_probability_weighting.md",
+    "Glossary.md",
     "Time dependent confounders.md",
     "Conditioning.md",
     "inverse.md",
