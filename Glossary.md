@@ -64,3 +64,5 @@ The outcome is a variable that is the dependent variable in a causal study. The 
 
 ## Parent
 A variable $X$ is a parent of variable $Y$ if there is a unidirectional path connecting $X$ to $Y$.
+
+## Simpson's paradox
