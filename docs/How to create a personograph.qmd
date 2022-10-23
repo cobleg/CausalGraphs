@@ -1,8 +1,14 @@
 ---
 title: "Presentation"
+execute: 
+  echo: true
 format:
-  revealjs: 
+  revealjs:
     theme: custom.scss
+    controls-layout: bottom-right
+    controls-tutorial: true
+    code-fold: true 
+
 ---
 
 ## Overview
@@ -21,7 +27,8 @@ The folllowing notes are relevant:
 
 ::: columns
 ::: {.column width="50%"}
-```{r, echo = TRUE}
+```{r}
+library(ragg)
 library(personograph)
 data <- list(first=0.89, second=0.06, third=0.05)
 # With colors
@@ -40,7 +47,7 @@ Personograph from the personograph documentation
 
 Custom icon
 
-```{r, echo=TRUE}
+```{r}
 library(grImport)
 library(personograph)
 library(tidyverse)
@@ -70,14 +77,3 @@ personograph(data, n.icons=100, dimensions=c(10, 10), colors=list(eight = "grey"
              icon =  car.1)
 ```
 
-## Slide
-
-::: columns
-::: {.column width="50%"}
-Column 1
-:::
-
-::: {.column width="50%"}
-Column 2
-:::
-:::
