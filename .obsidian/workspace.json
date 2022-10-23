@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conditional_independence.md",
+                "file": "Directed_Graphical_Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conditional_independence.md",
+                "file": "Directed_Graphical_Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conditional_independence.md",
+                "file": "Directed_Graphical_Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conditional_independence.md"
+                "file": "Directed_Graphical_Models.md"
               }
             }
           }
@@ -190,8 +190,8 @@
   },
   "active": "c796ca3839860bcd",
   "lastOpenFiles": [
-    "Directed_Graphical_Models.md",
     "conditional_independence.md",
+    "Directed_Graphical_Models.md",
     "d-Separation.md",
     "Glossary.md",
     "inverse probability weighting.md",
