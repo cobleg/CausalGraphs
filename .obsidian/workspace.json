@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Causal graph basics.md",
+                "file": "Causal_graph_basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,15 +190,15 @@
   },
   "active": "c796ca3839860bcd",
   "lastOpenFiles": [
+    "Causal_graph_basics.md",
+    "Glossary.md",
+    "d-Separation.md",
     "conditional_independence.md",
     "references.md",
     "Directed Graphical Models.md",
     "conditional.md",
     "inverse_probability_weighting.md",
-    "d-Separation.md",
-    "Glossary.md",
     "inverse probability weighting.md",
-    "Time dependent confounders.md",
-    "Conditioning.md"
+    "Time dependent confounders.md"
   ]
 }
