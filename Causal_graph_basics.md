@@ -32,7 +32,7 @@ a --> Y;
 ```
 In this example, $a$ is a mediator between cause $X$ and effect  $Y$
 
-## Collider variable
+## Collider
 ```mermaid
 graph TD;
 	a --> Z;

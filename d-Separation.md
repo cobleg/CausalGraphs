@@ -4,7 +4,7 @@ The crucial point in conditional independence is the location of observable node
 
 # d-separation rules
 The rules of d-Separation:
-1. When $Y$ is not a [collider](Causal_graph_basics), $X$ and $Y$ are d-connected, but they are d-separated given $Z$. 
+1. When $Y$ is not a [collider](Causal_graph_basics.md#Collider), $X$ and $Y$ are d-connected, but they are d-separated given $Z$. 
 2. If $X$ and $Y$ collide at $Z$ then $X$ and $Y$ are d-separated, but they are d-connected given $Z$.
 3. Conditioning on the descendant of a collider has the same effect as conditioning on the collider. 
 
@@ -16,7 +16,7 @@ z --> y;
 
 # Using d-separation in analysis
 Tips for using d-separation to identify cause-effect relationships:
-- Mark the given variables
+- Mark the given (i.e. exogenous) variables
 - Apply basic rules to all triplets
 - Check if there is a path between random variables that is not blocked.
 
