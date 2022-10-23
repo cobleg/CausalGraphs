@@ -1,4 +1,4 @@
-D-Separation describes conditional independence in [Directed Graphical Models](). We can use this in order to determine relationships between random variables if only a subset of the model is observable.
+D-Separation describes conditional independence in [Directed Graphical Models](Directed_Graphical_Models.md). We can use this in order to determine relationships between random variables if only a subset of the model is observable.
 
 The crucial point in conditional independence is the location of observable nodes in the Directed Graphical Model.
 
