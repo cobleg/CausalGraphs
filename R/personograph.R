@@ -29,11 +29,11 @@ mtcars.2 <- mtcars.1 %>%
   rownames_to_column("cylinders") %>% 
   pivot_wider(values_from = proportions, names_from = cylinders)
 
-grImport::PostScriptTrace(here::here("images", "car.eps"), outfilename = "car2.ps")
-car.1 <- grImport::readPicture("car2.ps")
+grImport::PostScriptTrace(here::here("images", "SV01-Car-Side-On.eps"), outfilename = "car.ps")
+car.1 <- grImport::readPicture("car.ps")
 data <- as.list(mtcars.2)
 
 personograph(data, n.icons=100, dimensions=c(10, 10), colors=list(eight = "grey", four = "blue", six = "red"),
              fig.title = "Cars by number of cylinders",
-             icon =  grImport::readPicture("car2.ps"))
+             icon =  car.1)
  
