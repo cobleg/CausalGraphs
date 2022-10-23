@@ -35,5 +35,6 @@ data <- as.list(mtcars.2)
 
 personograph(data, n.icons=100, dimensions=c(10, 10), colors=list(eight = "grey", four = "blue", six = "red"),
              fig.title = "Cars by number of cylinders",
+             fig.cap = "Source: R-datasets; mtcars",
              icon =  car.1)
  
