@@ -66,3 +66,8 @@ The outcome is a variable that is the dependent variable in a causal study. The 
 A variable $X$ is a parent of variable $Y$ if there is a unidirectional path connecting $X$ to $Y$.
 
 ## Simpson's paradox
+> **[Simpson's paradox](https://en.wikipedia.org/wiki/Simpson's_paradox)** is a phenomenon in [probability](https://en.wikipedia.org/wiki/Probability "Probability") and [statistics](https://en.wikipedia.org/wiki/Statistics "Statistics") in which a trend appears in several groups of data but disappears or reverses when the groups are combined. The paradox can be resolved when [confounding variables](https://en.wikipedia.org/wiki/Confounding_variable "Confounding variable") and causal relations are appropriately addressed in the statistical modeling.
+
+Wikipedia contributors. (2022, September 16). Simpson's paradox. In _Wikipedia, The Free Encyclopedia_. Retrieved 03:07, October 23, 2022, from [https://en.wikipedia.org/w/index.php?title=Simpson%27s_paradox&oldid=1110603341](https://en.wikipedia.org/w/index.php?title=Simpson%27s_paradox&oldid=1110603341)
+
+

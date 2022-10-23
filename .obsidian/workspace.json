@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c796ca3839860bcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "d-Separation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Glossary.md",
+                "file": "d-Separation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Glossary.md",
+                "file": "d-Separation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Glossary.md"
+                "file": "d-Separation.md"
               }
             }
           }
@@ -176,17 +188,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7cda3fa33b1d07ff",
+  "active": "c796ca3839860bcd",
   "lastOpenFiles": [
+    "Directed Graphical Models.md",
+    "d-Separation.md",
+    "Glossary.md",
     "inverse probability weighting.md",
     "inverse_probability_weighting.md",
-    "Glossary.md",
     "Time dependent confounders.md",
     "Conditioning.md",
     "inverse.md",
     "Causal graph basics.md",
-    "references.md",
-    "Propensity score matching.md",
-    "README.md"
+    "references.md"
   ]
 }
