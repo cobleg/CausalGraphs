@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Directed_Graphical_Models.md",
+                "file": "d-Separation.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Directed_Graphical_Models.md",
+                "file": "d-Separation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Directed_Graphical_Models.md",
+                "file": "d-Separation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Directed_Graphical_Models.md"
+                "file": "d-Separation.md"
               }
             }
           }
@@ -191,14 +191,14 @@
   "active": "c796ca3839860bcd",
   "lastOpenFiles": [
     "conditional_independence.md",
-    "Directed_Graphical_Models.md",
+    "references.md",
+    "Directed Graphical Models.md",
+    "conditional.md",
+    "inverse_probability_weighting.md",
     "d-Separation.md",
     "Glossary.md",
     "inverse probability weighting.md",
-    "inverse_probability_weighting.md",
     "Time dependent confounders.md",
-    "Conditioning.md",
-    "inverse.md",
-    "Causal graph basics.md"
+    "Conditioning.md"
   ]
 }

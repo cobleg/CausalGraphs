@@ -8,6 +8,8 @@ _International Journal of Epidemiology_ 45(6):1887-1894, 2016.
 
 Judea Pearl. [*Causality*](http://bayes.cs.ucla.edu/BOOK-2K/)
 
+John Lafferty, Han Liu, and Larry Wasserman (2010). [Directed Graphical Models](https://www.stat.cmu.edu/~larry/=sml/DAGs.pdf)
+
 Michael Johns. [Propensity Score Matching: A Non-experimental Approach to Causal... | PyData NYC 2019](https://youtu.be/gaUgW7NWai8)
 
 Rohrer JM. [Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data.](https://journals.sagepub.com/doi/full/10.1177/2515245917745629) Advances in Methods and Practices in Psychological Science. 2018;1(1):27-42. doi:10.1177/2515245917745629
