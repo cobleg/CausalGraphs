@@ -28,7 +28,7 @@ The folllowing notes are relevant:
 ::: columns
 ::: {.column width="50%"}
 ```{r}
-library(ragg)
+
 library(personograph)
 data <- list(first=0.89, second=0.06, third=0.05)
 # With colors
