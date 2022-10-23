@@ -1,8 +1,8 @@
 ---
-title: "How to create a personograph"
-author: "Grant COble-Neal"
-format: revealjs
-editor: visual
+title: "Presentation"
+format:
+  revealjs: 
+    theme: custom.scss
 ---
 
 ## Overview
@@ -19,16 +19,22 @@ The folllowing notes are relevant:
 
 ## Code example 1
 
-Personograph from the personograph documentation
-
+::: columns
+::: {.column width="50%"}
 ```{r, echo = TRUE}
 library(personograph)
 data <- list(first=0.89, second=0.06, third=0.05)
 # With colors
 personograph(data, n.icons=64, dimensions=c(8, 8), colors=list(first="grey", second="blue", third="red"),
              fig.title = "Example of a personograph")
-
 ```
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+Personograph from the personograph documentation
 
 ## Code example 2
 
@@ -63,3 +69,15 @@ personograph(data, n.icons=100, dimensions=c(10, 10), colors=list(eight = "grey"
              fig.cap = "Source: R-datasets; mtcars",
              icon =  car.1)
 ```
+
+## Slide
+
+::: columns
+::: {.column width="50%"}
+Column 1
+:::
+
+::: {.column width="50%"}
+Column 2
+:::
+:::
