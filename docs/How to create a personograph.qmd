@@ -17,15 +17,49 @@ The folllowing notes are relevant:
 
 -   The custom icon must be a postscript file. The format `.eps` works
 
-## Code
+## Code example 1
 
-Example 1: Personograph from the personograph documentation
+Personograph from the personograph documentation
 
-```{r}
+```{r, echo = TRUE}
 library(personograph)
 data <- list(first=0.89, second=0.06, third=0.05)
 # With colors
 personograph(data, n.icons=64, dimensions=c(8, 8), colors=list(first="grey", second="blue", third="red"),
              fig.title = "Example of a personograph")
 
+```
+
+## Code example 2
+
+Custom icon
+
+```{r, echo=TRUE}
+library(grImport)
+library(personograph)
+library(tidyverse)
+
+mtcars.1 <- mtcars %>% 
+  mutate(cylinders = as.factor(cyl)) %>% 
+  group_by(cylinders) %>%
+  summarise(cnt = n()) %>% 
+  mutate(proportions = round(cnt) / sum(cnt), 1) %>% 
+  arrange((desc(proportions))) %>% 
+  column_to_rownames("cylinders") %>% 
+  select(proportions)
+  
+rownames(mtcars.1) <- english::as.english(as.numeric(rownames(mtcars.1)))
+
+mtcars.2 <- mtcars.1 %>% 
+  rownames_to_column("cylinders") %>% 
+  pivot_wider(values_from = proportions, names_from = cylinders)
+
+grImport::PostScriptTrace(here::here("images", "SV01-Car-Side-On.eps"), outfilename = "car.ps")
+car.1 <- grImport::readPicture("car.ps")
+data <- as.list(mtcars.2)
+
+personograph(data, n.icons=100, dimensions=c(10, 10), colors=list(eight = "grey", four = "blue", six = "red"),
+             fig.title = "Cars by number of cylinders",
+             fig.cap = "Source: R-datasets; mtcars",
+             icon =  car.1)
 ```
